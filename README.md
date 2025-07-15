@@ -1,1 +1,1 @@
-# hw1
+in questa repository vi è il sito completo; aggiunto codice php per caricamento dinamico di prodotti tramite database sql, implementate funzionalita di login e logout del sito e altre migliorie per quanto riguarda HTML,CSS,JS. per una corretta visualizzazione del sito si raccomanda si posizionare i sengoli file e le cartelle con le immagini all'interno di una cartella. 
