@@ -1,0 +1,51 @@
+
+    main h1, main h2 {
+      
+      text-align: center;
+      margin: 2rem 0;
+      margin-top: 5rem;
+    }
+
+    main h2{
+      text-align: center;
+      margin: 2rem 0;
+      margin-top: 3rem;
+    }
+    .register-form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .register-form input[type="text"],
+    .register-form input[type="email"],
+    .register-form input[type="password"] {
+      width: 100%;
+      padding: 14px;
+      font-size: 16px;
+      border: 2px solid #0071e3;
+      border-radius: 10px;
+      outline: none;
+      margin-bottom: 16px;
+    }
+    .register-form button {
+      background-color: #0071e3;
+      border: none;
+      color: #fff;
+      padding: 14px 20px;
+      font-size: 16px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+    }
+    .register-links {
+      margin-top: 30px;
+      font-size: 14px;
+      text-align: center;
+    }
+    .register-links a {
+      color: #0071e3;
+      text-decoration: none;
+      display: block;
+      margin: 6px 0;
+    }

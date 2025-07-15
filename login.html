@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Accedi - Apple (Italia)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mhw3.css" />
+  <link rel="stylesheet" href="login.css" />
+  <script src="mhw3.js" defer></script>
+
+
+</head>
+<body>
+
+
+   <header>
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="index.php"><img src="immagini home/logo.png" alt="Apple Logo"></a>
+    </div>
+    <div class="nav-menu"> 
+      <a href="#">Store</a>
+      <a href="#">Mac</a>
+      <a href="#">iPad</a>
+      <a href="#">iPhone</a>
+      <a href="#">Watch</a>
+      <a href="#">AirPods</a>
+      <a href="#">TV & Casa</a>
+      <a href="#">Intrattenimento</a>
+      <a href="#">Accessori</a>
+      <a href="#">Supporto</a>
+    </div>
+    <div class="nav-right">
+      <a href="#"><img src="immagini home/lente.png" alt="Search"></a>
+      <a href="#"><img src="immagini home/bag.png" alt="Cart"></a>
+      <button class="hamburger-menu" aria-label="Menu">&#9776;</button>
+    </div>
+  </nav>
+</header>
+  
+<div id="dropdown-menu" class="fullscreen-dropdown">
+  <div class="dropdown-content" id="dropdown-columns"></div>
+</div>
+
+<div id="search-menu" class="search-menu">
+  <div class="search-content">
+    <input type="text" placeholder="Cerca su Apple.com" class="search-input">
+    <div class="search-columns">
+      <h3>Link rapidi</h3>
+      <div class="search-list">
+        <a href="#">➔ Trova uno Store</a>
+        <a href="#">➔ Accessori</a>
+        <a href="#">➔ AirPods</a>
+        <a href="#">➔ AirTag</a>
+        <a href="#">➔ Apple Trade In</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="cart-menu" class="cart-menu">
+  <div class="cart-content">
+    <h2>La shopping bag è vuota.</h2>
+    <p><a href="login.html">Accedi</a> per vedere se hai articoli salvati</p>
+    <div class="cart-columns">
+      <h3>Il mio profilo</h3>
+      <div class="cart-list">
+        <a href="#">Ordini</a>
+        <a href="#">I tuoi articoli salvati</a>
+        <a href="#">Account</a>
+        <a href="#">Accedi</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <main>
+    <h1>Accedi per accelerare il pagamento.</h1>
+    <h2>Accedi all’Apple Store</h2>
+
+   <div class="login-form">
+  <form action="api/login.php" method="POST">
+    <input type="text" name="username" placeholder="Email o numero di telefono" required />
+    <input type="password" name="password" placeholder="Password" required />
+    <button type="submit">&#10148;</button>
+    <label>
+      <input type="checkbox" name="remember" /> Ricordami
+    </label>
+  </form>
+
+  <div class="login-links">
+    <a href="#">Hai dimenticato la password?</a>
+    <a href="register.html">Non hai un Apple Account? Crea il tuo Apple Account</a>
+  </div>
+</div>
+
+  </main>
+
+ 
+  <footer>
+    <p>© 2025 Apple Inc. Tutti i diritti riservati.</p>
+    <p><a href="#">Privacy</a> | <a href="#">Termini</a></p>
+  </footer>
+
+
+  
+</body>
+</html>
